@@ -2,6 +2,7 @@ package com.example.lenovo.sampleapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             System.out.println("TTTTTEEESSTTT" + itr.next());
         }
 
+        Toast.makeText(getApplicationContext(), "<===MainActivity ===>", Toast.LENGTH_SHORT).show();
     }
 }
 
